@@ -2,7 +2,7 @@
 using Android.Support.V7.App;
 using Android.Support.V7.Widget;
 
-namespace FoodPrices.Droid
+namespace FoodPrices.Droid.Activities
 {
     public class BaseActivity : AppCompatActivity
     {

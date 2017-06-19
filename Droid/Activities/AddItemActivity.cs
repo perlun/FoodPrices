@@ -14,7 +14,7 @@ using Android.Support.Design.Widget;
 using Plugin.Connectivity;
 using Plugin.CurrentActivity;
 
-namespace FoodPrices.Droid
+namespace FoodPrices.Droid.Activities
 {
     [Activity(Label = "AddItemActivity")]
     public class AddItemActivity : Activity

@@ -1,7 +1,7 @@
 ﻿using System;
 using Android.Views;
 
-namespace FoodPrices.Droid
+namespace FoodPrices.Droid.Helpers
 {
     public class RecyclerClickEventArgs : EventArgs
     {

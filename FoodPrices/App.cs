@@ -8,10 +8,6 @@ namespace FoodPrices
         public static bool UseMockDataStore = true;
         public static string BackendUrl = "http://localhost:5000";
 
-        public App()
-        {
-        }
-
         public static void Initialize()
         {
             if (UseMockDataStore)
@@ -22,7 +18,7 @@ namespace FoodPrices
 #if __IOS__
 			ServiceLocator.Instance.Register<IMessageDialog, iOS.MessageDialog>();
 #else
-            ServiceLocator.Instance.Register<IMessageDialog, Droid.MessageDialog>();
+            ServiceLocator.Instance.Register<IMessageDialog, Droid.Helpers.MessageDialog>();
 #endif
         }
 

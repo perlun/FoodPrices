@@ -12,7 +12,7 @@ using Android.Widget;
 using Android.Support.Design.Widget;
 using Android.Support.V4.App;
 
-namespace FoodPrices.Droid
+namespace FoodPrices.Droid.Activities
 {
     [Activity(Label = "Details", ParentActivity = typeof(MainActivity))]
     [MetaData("android.support.PARENT_ACTIVITY", Value = ".MainActivity")]

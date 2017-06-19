@@ -12,7 +12,7 @@ using Android.Widget;
 
 using Plugin.CurrentActivity;
 
-namespace FoodPrices.Droid
+namespace FoodPrices.Droid.Helpers
 {
     public class MessageDialog : IMessageDialog
     {

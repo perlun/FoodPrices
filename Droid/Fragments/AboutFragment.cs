@@ -3,7 +3,7 @@ using Android.OS;
 using Android.Views;
 using Android.Widget;
 
-namespace FoodPrices.Droid
+namespace FoodPrices.Droid.Fragments
 {
     public class AboutFragment : Android.Support.V4.App.Fragment, IFragmentVisible
     {
