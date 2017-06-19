@@ -2,6 +2,8 @@
 using Android.Support.V4.App;
 using FoodPrices.Droid.Fragments;
 using Java.Lang;
+using JavaString = Java.Lang.String;
+using JavaObject = Java.Lang.Object;
 
 namespace FoodPrices.Droid.Activities
 {
@@ -17,7 +19,7 @@ namespace FoodPrices.Droid.Activities
 		}
 
 		public override ICharSequence GetPageTitleFormatted(int position) =>
-							new Java.Lang.String(titles[position]);
+							new JavaString(titles[position]);
 
 		public override Fragment GetItem(int position)
 		{
@@ -29,6 +31,6 @@ namespace FoodPrices.Droid.Activities
 			return null;
 		}
 
-		public override int GetItemPosition(Java.Lang.Object frag) => PositionNone;
+		public override int GetItemPosition(JavaObject frag) => PositionNone;
 	}
 }
